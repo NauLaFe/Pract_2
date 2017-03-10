@@ -1,0 +1,830 @@
+﻿Log file open, 03/09/17 17:30:24
+LogInit:Display: Running engine for game: Pract_2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-813509311) SRandInit(-813509311).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.279988
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.09-16.30.27:034][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.09-16.30.27:034][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.09-16.30.27:128][  0]LogInit: Computer: ARNAU
+[2017.03.09-16.30.27:128][  0]LogInit: User: ARNAU
+[2017.03.09-16.30.27:128][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.09-16.30.27:128][  0]LogInit: High frequency timer resolution =2.240905 MHz
+[2017.03.09-16.30.27:129][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.03.09-16.30.27:129][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.09-16.30.27:129][  0]LogMemory: Process Physical Memory: 263.82 MB used, 263.82 MB peak
+[2017.03.09-16.30.27:129][  0]LogMemory: Process Virtual Memory: 262.75 MB used, 262.75 MB peak
+[2017.03.09-16.30.27:129][  0]LogMemory: Physical Memory: 4620.68 MB used,  3491.69 MB free, 8112.37 MB total
+[2017.03.09-16.30.27:129][  0]LogMemory: Virtual Memory: 676.55 MB used,  3491.69 MB free, 134217728.00 MB total
+[2017.03.09-16.30.27:232][  0]LogInit: Overriding culture en with editor configuration.
+[2017.03.09-16.30.31:653][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.09-16.30.31:739][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 820M' (Feature Level 11_0)
+[2017.03.09-16.30.31:739][  0]LogD3D11RHI:       1999/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.09-16.30.31:766][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.03.09-16.30.31:766][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.03.09-16.30.31:776][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.09-16.30.31:776][  0]LogD3D11RHI:       0/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.09-16.30.31:776][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.09-16.30.31:796][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.09-16.30.31:796][  0]LogD3D11RHI:     GPU DeviceId: 0x1140 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.09-16.30.31:796][  0]LogWindows: EnumDisplayDevices:
+[2017.03.09-16.30.31:797][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.03.09-16.30.31:798][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.09-16.30.31:798][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.09-16.30.31:799][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.03.09-16.30.31:799][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 820M
+[2017.03.09-16.30.31:799][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.03.09-16.30.31:799][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.03.09-16.30.31:799][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.09-16.30.31:856][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.03.09-16.30.31:856][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.09-16.30.31:890][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.03.09-16.30.31:895][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Users/ARNAU/Desktop/Pract_2/Intermediate/Shaders/WorkingDirectory/14460/).
+[2017.03.09-16.30.31:896][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ARNAU/AppData/Local/Temp/UnrealShaderWorkingDir/1ECA92844599A5EA829CBD864A8A7EEC/'.
+[2017.03.09-16.30.31:896][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.09-16.30.37:783][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.09-16.30.38:298][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.09-16.30.38:992][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.09-16.30.39:694][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.09-16.30.40:234][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.09-16.30.40:659][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.09-16.30.41:098][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.09-16.30.41:654][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.09-16.30.42:021][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.09-16.30.42:447][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.09-16.30.42:861][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.09-16.30.43:351][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.09-16.30.43:758][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.09-16.30.44:098][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.09-16.30.44:464][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.09-16.30.45:678][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.09-16.30.45:678][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.09-16.30.46:086][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.09-16.30.46:817][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.09-16.30.47:115][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.09-16.30.47:693][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.09-16.30.48:222][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.09-16.30.48:728][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.09-16.30.49:266][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.09-16.30.49:266][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.09-16.30.53:825][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.09-16.30.54:039][  0]LogDerivedDataCache: Loaded boot cache 0.21s 50MB C:/Users/ARNAU/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.09-16.30.54:039][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ARNAU/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.03.09-16.30.54:040][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ARNAU/Desktop/Pract_2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.09-16.30.54:040][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.09-16.30.54:040][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ARNAU/Desktop/Pract_2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.09-16.30.54:041][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.09-16.30.54:112][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.09-16.30.54:129][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ARNAU/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.09-16.30.55:465][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.09-16.30.55:483][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.09-16.30.57:583][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.09-16.30.58:222][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.09-16.30.58:869][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.09-16.30.58:869][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.09-16.30.58:869][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.09-16.31.02:101][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: pract_2, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 288990282
+[2017.03.09-16.31.02:419][  0]LogAssetRegistry: FAssetRegistry took 0.0235 seconds to start up
+[2017.03.09-16.31.02:780][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.099392 seconds
+[2017.03.09-16.31.02:808][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.03.09-16.31.02:808][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.03.09-16.31.02:808][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.09-16.31.03:652][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.09-16.31.11:166][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.09-16.31.11:174][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.09-16.31.11:174][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.09-16.31.20:043][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.09-16.31.20:440][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.09-16.31.23:121][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.09-16.31.26:987][  0]SourceControl: Info Source control is disabled
+[2017.03.09-16.31.26:994][  0]SourceControl: Info Source control is disabled
+[2017.03.09-16.31.27:447][  0]SourceControl: Info Source control is disabled
+[2017.03.09-16.31.27:999][  0]SourceControl: Info Source control is disabled
+[2017.03.09-16.31.40:483][  0]LogEngine: Initializing Engine...
+[2017.03.09-16.31.40:486][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.09-16.31.42:312][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.09-16.31.42:351][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.09-16.31.42:470][  0]LogInit: FAudioDevice initialized.
+[2017.03.09-16.31.42:565][  0]LogDerivedDataCache: Saved boot cache 0.10s 50MB C:/Users/ARNAU/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.09-16.31.42:589][  0]LogInit: Texture streaming: Enabled
+[2017.03.09-16.31.44:411][  0]LogInit: Transaction tracking system initialized
+[2017.03.09-16.31.47:986][  0]BlueprintLog: New page: Editor Load
+[2017.03.09-16.31.57:658][  0]LocalizationService: Info Localization service is disabled
+[2017.03.09-16.32.04:721][  0]LogConsoleResponse:Display: 
+[2017.03.09-16.32.05:819][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ARNAU/Desktop/Pract_2/Content/' took 0.01s
+[2017.03.09-16.32.05:819][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.09-16.32.05:820][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.09-16.32.17:100][  0]SourceControl: Info Source control is disabled
+[2017.03.09-16.32.17:249][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.14/FeaturePacks/StarterContent.upack)
+[2017.03.09-16.32.17:530][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.03.09-16.32.17:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.03.09-16.32.17:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.03.09-16.32.17:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.03.09-16.32.17:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.03.09-16.32.17:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.03.09-16.32.17:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.03.09-16.32.17:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.03.09-16.32.17:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.03.09-16.32.17:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.03.09-16.32.17:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.03.09-16.32.17:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.03.09-16.32.18:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.03.09-16.32.18:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.03.09-16.32.18:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.03.09-16.32.18:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.03.09-16.32.18:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.03.09-16.32.18:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.03.09-16.32.18:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Fire01.uasset"
+[2017.03.09-16.32.18:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.03.09-16.32.18:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.03.09-16.32.18:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.03.09-16.32.18:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Light01.uasset"
+[2017.03.09-16.32.18:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.03.09-16.32.18:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Light02.uasset"
+[2017.03.09-16.32.18:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.03.09-16.32.18:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.03.09-16.32.18:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.03.09-16.32.18:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.03.09-16.32.18:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.03.09-16.32.18:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.03.09-16.32.18:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.03.09-16.32.18:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.03.09-16.32.19:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.03.09-16.32.19:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Steam01.uasset"
+[2017.03.09-16.32.19:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.03.09-16.32.19:757][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.03.09-16.32.19:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.03.09-16.32.19:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.03.09-16.32.19:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.03.09-16.32.19:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.03.09-16.32.19:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.03.09-16.32.19:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.03.09-16.32.20:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.03.09-16.32.20:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.03.09-16.32.20:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.03.09-16.32.20:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.03.09-16.32.20:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.03.09-16.32.20:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.03.09-16.32.20:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.03.09-16.32.20:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.03.09-16.32.20:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.03.09-16.32.22:858][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.03.09-16.32.22:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.03.09-16.32.22:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.03.09-16.32.23:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Maps/StarterMap.umap"
+[2017.03.09-16.32.23:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.03.09-16.32.23:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.03.09-16.32.23:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.03.09-16.32.23:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.03.09-16.32.23:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.03.09-16.32.23:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.03.09-16.32.23:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.03.09-16.32.23:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.03.09-16.32.23:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.03.09-16.32.23:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.03.09-16.32.23:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.03.09-16.32.24:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.03.09-16.32.24:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.03.09-16.32.24:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.03.09-16.32.24:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.03.09-16.32.24:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.03.09-16.32.24:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.03.09-16.32.24:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.03.09-16.32.24:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.03.09-16.32.24:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.03.09-16.32.24:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.03.09-16.32.24:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.03.09-16.32.24:322][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.03.09-16.32.24:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.03.09-16.32.24:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.03.09-16.32.24:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.03.09-16.32.24:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.03.09-16.32.25:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.03.09-16.32.25:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.03.09-16.32.25:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.03.09-16.32.25:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.03.09-16.32.25:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.03.09-16.32.25:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.03.09-16.32.25:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.03.09-16.32.25:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.03.09-16.32.25:523][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.03.09-16.32.25:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.03.09-16.32.25:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.03.09-16.32.25:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.03.09-16.32.25:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.03.09-16.32.25:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.03.09-16.32.25:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.03.09-16.32.25:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.03.09-16.32.25:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.03.09-16.32.25:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.03.09-16.32.25:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.03.09-16.32.26:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.03.09-16.32.26:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.03.09-16.32.26:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.03.09-16.32.26:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.03.09-16.32.26:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.03.09-16.32.26:540][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.03.09-16.32.26:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.03.09-16.32.26:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.03.09-16.32.26:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.03.09-16.32.26:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.03.09-16.32.26:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.03.09-16.32.26:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.03.09-16.32.26:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.03.09-16.32.26:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.03.09-16.32.26:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.03.09-16.32.26:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.03.09-16.32.26:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.03.09-16.32.26:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.03.09-16.32.26:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/SM_Door.uasset"
+[2017.03.09-16.32.26:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.03.09-16.32.26:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.03.09-16.32.27:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.03.09-16.32.27:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.03.09-16.32.27:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.03.09-16.32.27:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.03.09-16.32.27:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.03.09-16.32.27:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.03.09-16.32.27:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.03.09-16.32.27:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.03.09-16.32.27:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.03.09-16.32.27:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.03.09-16.32.27:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.03.09-16.32.27:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.03.09-16.32.27:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.03.09-16.32.27:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.03.09-16.32.27:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.03.09-16.32.27:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.03.09-16.32.27:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.03.09-16.32.27:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.03.09-16.32.27:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.03.09-16.32.27:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.03.09-16.32.27:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.03.09-16.32.27:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.03.09-16.32.27:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.03.09-16.32.27:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.03.09-16.32.28:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.03.09-16.32.28:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.03.09-16.32.28:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.03.09-16.32.28:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.03.09-16.32.28:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.03.09-16.32.28:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.03.09-16.32.28:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.03.09-16.32.28:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.03.09-16.32.28:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.03.09-16.32.28:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.03.09-16.32.28:523][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.03.09-16.32.28:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.03.09-16.32.28:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.03.09-16.32.28:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.03.09-16.32.28:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.03.09-16.32.28:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.03.09-16.32.28:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.03.09-16.32.29:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.03.09-16.32.29:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.03.09-16.32.29:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.03.09-16.32.29:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.03.09-16.32.29:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.03.09-16.32.29:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.03.09-16.32.30:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.03.09-16.32.30:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.03.09-16.32.30:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.03.09-16.32.30:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.03.09-16.32.31:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.03.09-16.32.31:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.03.09-16.32.32:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.03.09-16.32.32:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.03.09-16.32.32:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.03.09-16.32.32:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.03.09-16.32.32:307][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.03.09-16.32.32:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.03.09-16.32.32:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.03.09-16.32.32:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.03.09-16.32.33:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.03.09-16.32.33:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.03.09-16.32.34:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.03.09-16.32.34:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.03.09-16.32.34:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.03.09-16.32.35:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.03.09-16.32.37:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.03.09-16.32.37:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.03.09-16.32.40:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.03.09-16.32.41:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.03.09-16.32.41:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.03.09-16.32.42:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.03.09-16.32.42:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.03.09-16.32.42:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.03.09-16.32.42:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.03.09-16.32.43:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.03.09-16.32.43:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.03.09-16.32.43:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.03.09-16.32.43:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.03.09-16.32.44:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.03.09-16.32.44:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.03.09-16.32.44:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.03.09-16.32.44:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.03.09-16.32.44:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.03.09-16.32.44:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.03.09-16.32.44:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.03.09-16.32.44:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.03.09-16.32.44:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.03.09-16.32.44:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.03.09-16.32.44:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.03.09-16.32.44:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.03.09-16.32.45:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.03.09-16.32.45:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.03.09-16.32.46:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.03.09-16.32.46:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.03.09-16.32.46:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.03.09-16.32.46:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.03.09-16.32.46:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.03.09-16.32.47:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.03.09-16.32.47:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.03.09-16.32.47:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.03.09-16.32.48:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.03.09-16.32.48:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.03.09-16.32.48:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.03.09-16.32.48:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.03.09-16.32.48:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.03.09-16.32.48:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.03.09-16.32.49:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.03.09-16.32.49:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.03.09-16.32.49:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.03.09-16.32.50:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.03.09-16.32.50:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.03.09-16.32.50:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.03.09-16.32.51:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.03.09-16.32.51:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.03.09-16.32.51:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.03.09-16.32.52:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.03.09-16.32.52:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.03.09-16.32.52:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.03.09-16.32.52:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.03.09-16.32.52:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.03.09-16.32.52:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.03.09-16.32.52:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.03.09-16.32.52:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.03.09-16.32.52:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.03.09-16.32.52:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.03.09-16.32.53:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.03.09-16.32.53:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.03.09-16.32.53:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.03.09-16.32.54:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.03.09-16.32.54:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.03.09-16.32.54:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.03.09-16.32.54:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.03.09-16.32.54:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.03.09-16.32.54:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.03.09-16.32.55:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.03.09-16.32.55:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.03.09-16.32.55:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.03.09-16.32.56:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.03.09-16.32.56:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.03.09-16.32.56:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.03.09-16.32.56:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.03.09-16.32.56:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.03.09-16.32.56:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.03.09-16.32.59:830][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:2).
+[2017.03.09-16.33.02:559][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2017.03.09-16.33.03:280][  0]LogSavePackage: Save=460.58ms
+[2017.03.09-16.33.03:280][  0]LogSavePackage: Moving '../../../../../../Users/ARNAU/Desktop/Pract_2/Saved/Floor_400x400C200C1304AAAD5B2107017B088DA7C25.tmp' to '../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.03.09-16.33.03:326][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.03.09-16.33.03:326][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2017.03.09-16.33.03:355][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ARNAU/Desktop/Pract_2/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.09-16.33.03:357][  0]LightingResults: New page: Lighting Build
+[2017.03.09-16.33.03:913][  0]MapCheck: New page: Map Check
+[2017.03.09-16.33.03:913][  0]LightingResults: New page: Lighting Build
+[2017.03.09-16.33.08:409][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.03.09-16.33.08:413][  0]LogActorComponent: RegisterComponentWithWorld: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.03.09-16.33.08:965][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.09-16.33.09:016][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.09-16.33.09:939][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 922.95ms to complete.
+[2017.03.09-16.33.09:941][  0]LogFileHelpers: Loading map 'Minimal_Default' took 6.586
+[2017.03.09-16.33.13:374][  0]LogCollectionManager: Loaded 0 collections in 0.016239 seconds
+[2017.03.09-16.33.14:788][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ARNAU/Desktop/Pract_2/Saved/Collections/' took 0.01s
+[2017.03.09-16.33.14:788][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ARNAU/Desktop/Pract_2/Content/Developers/ARNAU/Collections/' took 0.01s
+[2017.03.09-16.33.14:788][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ARNAU/Desktop/Pract_2/Content/Collections/' took 0.01s
+[2017.03.09-16.33.14:788][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2017.03.09-16.33.15:314][  0]LogContentBrowser: Native class hierarchy populated in 0.3401 seconds. Added 2190 classes and 428 folders.
+[2017.03.09-16.33.16:223][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.09-16.33.16:224][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.001 s
+[2017.03.09-16.33.16:227][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0021 seconds. Added 13 classes and 0 folders.
+[2017.03.09-16.33.17:073][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0021 seconds. Added 0 classes and 0 folders.
+[2017.03.09-16.33.19:361][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0021 seconds. Added 0 classes and 0 folders.
+[2017.03.09-16.33.20:195][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2017.03.09-16.33.20:965][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0019 seconds. Added 1 classes and 3 folders.
+[2017.03.09-16.33.24:362][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.09-16.33.24:654][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.09-16.33.25:165][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0020 seconds. Added 1 classes and 2 folders.
+[2017.03.09-16.33.25:166][  0]LogLoad: (Engine Initialization) Total time: 188.95 seconds
+[2017.03.09-16.33.25:167][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.70 seconds
+[2017.03.09-16.33.25:167][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.09-16.33.25:167][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.09-16.33.25:508][  0]LogOcInput: OculusInput pre-init called
+[2017.03.09-16.33.26:970][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.03.09-16.33.29:142][  0]LogRenderer: Reallocating scene render targets to support 896x436 NumSamples 1 (Frame:3).
+[2017.03.09-16.33.30:612][  6]LogAssetRegistry: Asset discovery search completed in 148.2168 seconds
+[2017.03.09-16.33.30:612][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.03.09-16.33.30:613][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000083 seconds (updated 0 objects)
+[2017.03.09-16.44.05:045][193]Cmd: QUIT_EDITOR
+[2017.03.09-16.44.07:964][193]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.09-16.44.08:539][193]LogExit: Preparing to exit.
+[2017.03.09-16.44.12:254][193]LogDirectoryWatcher: A directory notification for 'C:/Users/ARNAU/Desktop/Pract_2/Content/' was aborted.
+[2017.03.09-16.44.13:672][193]LogExit: Editor shut down
+[2017.03.09-16.44.13:674][193]LogExit: Transaction tracking system shut down
+[2017.03.09-16.44.25:428][193]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.09-16.44.25:451][193]LogExit: Object subsystem successfully closed.
+[2017.03.09-16.44.26:923][193]LogD3D11RHI: Shutdown
+[2017.03.09-16.44.26:988][193]LogD3D11RHI: CleanupD3DDevice
+[2017.03.09-16.44.28:197][193]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.09-16.44.32:298][193]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.09-16.44.32:298][193]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9EA42DC9-4078-9316-4D48-4A8F8B87AD0E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=97ac6d93436639613fb7fe8d5a015616%7Cda6a7a60559e409c80287350b943aca4%7Ceeca2f4c-7d69-41ef-afbf-f13c4cb4256e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.09-16.44.32:668][193]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (242)
+[2017.03.09-16.44.32:668][193]LogModuleManager: Shutting down and abandoning module CrashTracker (241)
+[2017.03.09-16.44.32:668][193]LogModuleManager: Shutting down and abandoning module WorldBrowser (240)
+[2017.03.09-16.44.32:668][193]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2017.03.09-16.44.32:701][193]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2017.03.09-16.44.32:701][193]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2017.03.09-16.44.32:866][193]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.03.09-16.44.32:870][193]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2017.03.09-16.44.32:870][193]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2017.03.09-16.44.32:870][193]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2017.03.09-16.44.32:870][193]LogDirectoryWatcher: A directory notification for 'C:/Users/ARNAU/Desktop/Pract_2/Content/Collections/' was aborted.
+[2017.03.09-16.44.32:871][193]LogDirectoryWatcher: A directory notification for 'C:/Users/ARNAU/Desktop/Pract_2/Content/Developers/ARNAU/Collections/' was aborted.
+[2017.03.09-16.44.32:871][193]LogDirectoryWatcher: A directory notification for 'C:/Users/ARNAU/Desktop/Pract_2/Saved/Collections/' was aborted.
+[2017.03.09-16.44.32:871][193]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2017.03.09-16.44.33:055][193]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2017.03.09-16.44.33:089][193]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2017.03.09-16.44.33:225][193]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2017.03.09-16.44.33:225][193]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2017.03.09-16.44.33:225][193]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2017.03.09-16.44.33:225][193]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2017.03.09-16.44.33:225][193]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2017.03.09-16.44.33:255][193]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2017.03.09-16.44.33:295][193]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2017.03.09-16.44.33:305][193]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2017.03.09-16.44.33:348][193]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2017.03.09-16.44.33:557][193]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2017.03.09-16.44.33:604][193]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2017.03.09-16.44.33:931][193]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2017.03.09-16.44.33:931][193]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2017.03.09-16.44.33:932][193]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2017.03.09-16.44.33:932][193]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2017.03.09-16.44.33:932][193]LogModuleManager: Shutting down and abandoning module Media (215)
+[2017.03.09-16.44.33:932][193]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2017.03.09-16.44.33:932][193]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2017.03.09-16.44.33:932][193]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2017.03.09-16.44.33:932][193]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2017.03.09-16.44.34:403][193]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2017.03.09-16.44.34:403][193]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2017.03.09-16.44.34:403][193]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2017.03.09-16.44.34:403][193]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2017.03.09-16.44.34:403][193]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2017.03.09-16.44.34:403][193]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2017.03.09-16.44.34:739][193]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2017.03.09-16.44.34:860][193]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2017.03.09-16.44.34:959][193]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2017.03.09-16.44.34:960][193]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2017.03.09-16.44.35:084][193]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2017.03.09-16.44.35:084][193]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2017.03.09-16.44.35:954][193]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2017.03.09-16.44.35:968][193]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2017.03.09-16.44.35:968][193]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2017.03.09-16.44.35:968][193]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2017.03.09-16.44.36:021][193]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2017.03.09-16.44.36:200][193]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2017.03.09-16.44.36:269][193]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2017.03.09-16.44.36:296][193]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2017.03.09-16.44.36:413][193]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2017.03.09-16.44.36:413][193]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2017.03.09-16.44.36:439][193]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2017.03.09-16.44.36:556][193]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2017.03.09-16.44.36:556][193]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2017.03.09-16.44.36:617][193]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2017.03.09-16.44.36:648][193]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2017.03.09-16.44.36:648][193]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2017.03.09-16.44.36:668][193]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2017.03.09-16.44.36:710][193]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2017.03.09-16.44.36:711][193]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2017.03.09-16.44.36:711][193]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2017.03.09-16.44.36:711][193]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2017.03.09-16.44.37:022][193]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2017.03.09-16.44.37:151][193]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2017.03.09-16.44.37:230][193]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2017.03.09-16.44.37:302][193]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2017.03.09-16.44.37:319][193]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2017.03.09-16.44.37:484][193]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2017.03.09-16.44.37:717][193]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2017.03.09-16.44.37:892][193]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2017.03.09-16.44.37:893][193]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2017.03.09-16.44.37:893][193]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2017.03.09-16.44.37:918][193]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2017.03.09-16.44.38:040][193]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2017.03.09-16.44.38:040][193]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2017.03.09-16.44.38:135][193]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2017.03.09-16.44.38:261][193]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2017.03.09-16.44.38:596][193]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2017.03.09-16.44.38:671][193]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2017.03.09-16.44.38:700][193]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2017.03.09-16.44.38:814][193]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2017.03.09-16.44.39:007][193]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2017.03.09-16.44.39:122][193]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2017.03.09-16.44.39:239][193]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2017.03.09-16.44.39:240][193]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2017.03.09-16.44.39:240][193]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2017.03.09-16.44.39:240][193]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2017.03.09-16.44.39:240][193]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2017.03.09-16.44.39:240][193]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2017.03.09-16.44.39:240][193]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2017.03.09-16.44.39:240][193]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2017.03.09-16.44.39:320][193]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2017.03.09-16.44.39:388][193]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2017.03.09-16.44.39:388][193]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2017.03.09-16.44.39:704][193]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2017.03.09-16.44.39:841][193]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2017.03.09-16.44.39:841][193]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2017.03.09-16.44.39:841][193]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2017.03.09-16.44.39:841][193]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2017.03.09-16.44.39:877][193]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2017.03.09-16.44.39:995][193]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2017.03.09-16.44.39:995][193]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2017.03.09-16.44.39:995][193]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2017.03.09-16.44.39:995][193]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2017.03.09-16.44.39:995][193]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2017.03.09-16.44.40:052][193]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2017.03.09-16.44.40:052][193]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2017.03.09-16.44.40:454][193]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2017.03.09-16.44.40:454][193]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2017.03.09-16.44.40:454][193]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2017.03.09-16.44.40:454][193]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2017.03.09-16.44.40:483][193]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2017.03.09-16.44.40:542][193]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2017.03.09-16.44.40:542][193]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2017.03.09-16.44.40:542][193]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2017.03.09-16.44.40:542][193]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2017.03.09-16.44.40:720][193]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2017.03.09-16.44.40:803][193]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2017.03.09-16.44.40:882][193]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2017.03.09-16.44.40:882][193]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2017.03.09-16.44.40:948][193]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2017.03.09-16.44.40:949][193]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2017.03.09-16.44.41:035][193]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2017.03.09-16.44.41:155][193]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2017.03.09-16.44.41:211][193]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2017.03.09-16.44.41:233][193]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2017.03.09-16.44.41:233][193]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2017.03.09-16.44.41:255][193]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2017.03.09-16.44.41:255][193]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2017.03.09-16.44.41:255][193]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2017.03.09-16.44.41:315][193]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2017.03.09-16.44.41:317][193]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2017.03.09-16.44.41:318][193]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2017.03.09-16.44.41:380][193]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2017.03.09-16.44.41:383][193]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2017.03.09-16.44.41:486][193]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2017.03.09-16.44.41:587][193]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2017.03.09-16.44.41:727][193]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.03.09-16.44.41:727][193]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.03.09-16.44.41:745][193]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.03.09-16.44.41:773][193]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.03.09-16.44.41:842][193]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.03.09-16.44.41:842][193]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.03.09-16.44.42:017][193]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.03.09-16.44.42:017][193]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.03.09-16.44.42:017][193]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.03.09-16.44.42:017][193]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.03.09-16.44.42:255][193]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.03.09-16.44.42:291][193]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.03.09-16.44.42:601][193]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.03.09-16.44.42:819][193]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.03.09-16.44.42:819][193]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.03.09-16.44.42:919][193]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.03.09-16.44.43:227][193]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.03.09-16.44.43:467][193]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.03.09-16.44.43:600][193]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.03.09-16.44.44:038][193]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.03.09-16.44.44:038][193]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.03.09-16.44.44:055][193]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.03.09-16.44.44:055][193]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.03.09-16.44.44:055][193]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.03.09-16.44.44:055][193]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.03.09-16.44.44:055][193]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.03.09-16.44.44:055][193]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.03.09-16.44.44:055][193]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.09-16.44.44:055][193]LogDirectoryWatcher: A directory notification for '../../../../../../Users/ARNAU/Desktop/Pract_2/Content/' was aborted.
+[2017.03.09-16.44.44:056][193]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.09-16.44.44:057][193]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.03.09-16.44.44:351][193]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.03.09-16.44.44:351][193]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.03.09-16.44.44:351][193]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.03.09-16.44.44:416][193]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.03.09-16.44.44:571][193]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.03.09-16.44.44:622][193]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.03.09-16.44.44:622][193]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.03.09-16.44.44:867][193]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.03.09-16.44.44:965][193]LogDerivedDataCache: Shutdown
+[2017.03.09-16.44.45:022][193]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.03.09-16.44.45:066][193]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.03.09-16.44.45:302][193]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.03.09-16.44.45:427][193]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.03.09-16.44.45:501][193]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.03.09-16.44.45:501][193]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.03.09-16.44.45:571][193]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.03.09-16.44.45:607][193]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.03.09-16.44.45:971][193]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.03.09-16.44.45:971][193]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.03.09-16.44.45:971][193]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.03.09-16.44.45:971][193]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.03.09-16.44.45:982][193]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.03.09-16.44.46:048][193]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.03.09-16.44.46:048][193]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.03.09-16.44.46:048][193]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.03.09-16.44.46:190][193]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.03.09-16.44.46:216][193]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.03.09-16.44.46:322][193]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.03.09-16.44.46:322][193]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.03.09-16.44.46:322][193]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.03.09-16.44.46:322][193]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.03.09-16.44.46:322][193]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.03.09-16.44.46:322][193]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.03.09-16.44.46:322][193]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.03.09-16.44.46:322][193]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.03.09-16.44.46:322][193]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.03.09-16.44.46:322][193]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.03.09-16.44.46:323][193]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.03.09-16.44.46:323][193]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.03.09-16.44.46:323][193]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.03.09-16.44.46:323][193]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.03.09-16.44.46:339][193]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.03.09-16.44.46:369][193]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.03.09-16.44.46:412][193]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.03.09-16.44.46:412][193]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.03.09-16.44.46:412][193]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.03.09-16.44.46:412][193]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.03.09-16.44.46:412][193]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.03.09-16.44.46:412][193]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.03.09-16.44.46:412][193]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.03.09-16.44.46:412][193]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.03.09-16.44.46:412][193]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.03.09-16.44.46:442][193]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.03.09-16.44.46:442][193]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.03.09-16.44.46:442][193]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.03.09-16.44.46:442][193]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.09-16.44.46:657][193]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.03.09-16.44.46:700][193]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.03.09-16.44.46:700][193]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.03.09-16.44.46:964][193]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.09-16.44.47:131][193]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.09-16.44.47:131][193]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.09-16.44.47:131][193]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.09-16.44.47:209][193]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.09-16.44.47:266][193]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.09-16.44.47:266][193]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.09-16.44.47:331][193]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.09-16.44.47:383][193]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.09-16.44.47:383][193]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.09-16.44.47:383][193]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.09-16.44.47:429][193]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.09-16.44.47:454][193]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.09-16.44.47:454][193]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.09-16.44.47:583][193]LogExit: Exiting.
+[2017.03.09-16.44.47:725][193]Log file closed, 03/09/17 17:44:47
